@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Noto Sans TC", sans-serif;
+    background-color: #FAF0E9;
+
+}
+
+//設定topHeader位置
+.topArea{
+    position: fixed;
+}
+
+.slotArea{
+    background-color: transparent
+}
+
+//彈出警示的樣式設定
+.swal2-x-mark{
+    background-color: transparent;
+}
+.swal2-icon{
+    background-color: transparent;
+}
+.swal2-title{
+    background-color: transparent;
+}
+.swal2-html-container{
+    background-color: transparent;
+}
+.swal2-actions{
+    background-color: transparent;
+}
+.swal2-success-ring{
+    background-color: transparent;
+}
+.swal2-icon-content{
+    background-color: transparent;
+}
+
+#app{
+    display: flex;
+    padding: 0;
+    margin: 0;  // 確保沒有多餘的 margin
+    
+}
